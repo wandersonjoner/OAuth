@@ -1,7 +1,7 @@
 # Oauth Basic Autenticacao de acesso da Api RESTful 
 
 
-1 - Criaremos pacote e uma classe de configuracao de seguranca para a autenticacao com o Spring Security e OAuth Basic;
+1 - Criaremos um pacote e uma classe de configuracao de seguranca para a autenticacao com o Spring Security e OAuth Basic;
 
 2 - Usaremos dois (02) métodos um de autenticacao e outro de autorizacao:
 
