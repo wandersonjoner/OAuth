@@ -1,4 +1,4 @@
-# Oauth Basic Autenticacao de acesso da aplicacao Aluno-api RESTful 
+# Oauth Autenticacao de acesso da aplicacao Aluno-api RESTful 
 
 1 - Criaremos um pacote Config e uma classe de configuracao de seguranca com o Spring Security e OAuth com autenticacao básica;
 
