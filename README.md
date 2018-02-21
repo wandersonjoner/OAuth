@@ -1,13 +1,11 @@
 # Oauth Basic Autenticacao de acesso da Api RESTful 
 
+1 - Criaremos um pacote Config e uma classe de configuracao de seguranca com o Spring Security e OAuth com autenticacao básica;
 
-1 - Criaremos um pacote e uma classe de configuracao de seguranca para a autenticacao com o Spring Security e OAuth com autenticacao básica;
+2 - Usaremos dois (02) métodos. Um de autenticacao e outro de autorizacao:
 
-2 - Usaremos dois (02) métodos. Um de autenticacao e outro de autorizacao;
+3 - Autencicacao de login com USUÁRIO e SENHA de acordo com o papel(ROLES). Vamos atribuir os privilégios a estas Roles ao invés de atribuir aos usuários o GRANT como permissão à cada usuário deixando mais trabalhosa a construcao das permissões, nas próximas aulas iremos fazer autenticacao em Banco de Dados;
 
-3 - Autencicacao de Usuário e Senha de acordo com o papel do USER definido em mémória, nas próximas aulas iremos fazer autenticacao em Banco de Dados;
+4 - Autorizacao de endereco http /PATH e acesso aos métodos / VERBOS Http, podendo restringir acesso de usuários aos métodos configurados da API RESTful
 
-4 - Autorizacao de endereco http e acesso aos métodos Http podendo restringir os acessos de usuários aos métodos configurados da API RESTful;
-
-5 - Vamos acessar o método SessionManager que cria uma politica de criacao de sessão, que no nosso caso é estado .
-
+5 - Vamos invocar o método SessionManager que cria políticas de criação de sessão usando a funcionalidade Stateless que não precisa manter o estado das requisicoes anteriores.
